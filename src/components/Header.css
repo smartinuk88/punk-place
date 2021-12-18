@@ -1,0 +1,51 @@
+.header {
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  margin: 10px;
+}
+
+.header__punkLogo {
+  width: 200px;
+}
+
+.header__searchBar {
+  display: flex;
+  background-color: #1c1c1e;
+  height: 50%;
+  flex: 1;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.header__searchBarLogoContainer {
+  margin: 10px;
+}
+
+.header__searchBarInput {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  font-size: 16px;
+}
+
+.header__items {
+  display: flex;
+  color: #a1a5b0;
+  gap: 20px;
+}
+
+.header__loginButton {
+  background: linear-gradient(to right, #b159f9, #cc0bf3);
+  border: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #000;
+}
